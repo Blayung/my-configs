@@ -196,6 +196,7 @@ bindsym $mod+Shift+s exec /home/wojtek/.config/i3/brightness.sh Up
 bindsym $mod+Shift+a exec /home/wojtek/.config/i3/brightness.sh Down
 bindsym Print exec gnome-screenshot -i
 
+exec_always --no-startup-id compton
 exec_always --no-startup-id /home/wojtek/.fehbg
 exec_always pactl set-sink-volume @DEFAULT_SINK@ 28%
 exec_always pactl set-sink-mute @DEFAULT_SINK@ false
