@@ -32,7 +32,7 @@ set mouse=a
 nmap <F2> :NERDTreeToggle<CR>
 nmap <S-Left> gT
 nmap <S-Right> gt
-inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<C-y>"
+inoremap <silent><expr> <S-tab> coc#pum#visible() ? coc#pum#confirm() : "\<C-y>"
 
 "Misc
 let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
