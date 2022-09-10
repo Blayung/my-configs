@@ -28,6 +28,7 @@ set expandtab
 set shiftwidth=4
 
 "Key bindings
+set mouse=a
 nmap <F2> :NERDTreeToggle<CR>
 nmap <S-Left> gT
 nmap <S-Right> gt
