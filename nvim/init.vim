@@ -4,11 +4,16 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'neovim/nvim-lspconfig'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'folke/trouble.nvim'
 
 call plug#end()
+
+lua require('blay')
 
 """""""""""""""""""""
 
@@ -39,3 +44,4 @@ let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
 filetype plugin on
 set clipboard=unnamedplus
 set incsearch
+syntax on
