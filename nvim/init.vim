@@ -27,6 +27,16 @@ let g:airline_theme='codedark'
 set number
 set relativenumber
 
+"Syntax
+syntax on
+set redrawtime=10000000
+autocmd BufEnter * :syntax sync fromstart
+highlight ErrorBetterComments ctermfg=255 ctermbg=124
+"highlight HighlightBetterComments ctermfg=255 ctermbg=100
+highlight QuestionBetterComments ctermfg=255 ctermbg=17
+"highlight TodoComments ctermfg=255 ctermbg=142
+"highlight StrikeoutBetterComments ctermfg=0 ctermbg=0
+
 "Tabulators
 set smartindent
 set tabstop=4
