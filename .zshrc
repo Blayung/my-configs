@@ -22,7 +22,7 @@ fi
 #setopt AUTO_CD
 #export PS1="%F{yellow}<ZSH> %F{green}%n@%m%F{white}:%F{blue}%~ %F{white}"
 #export PS1="%K{20}%F{black}   %K{28}%F{20}%K{28}%F{black}  %n@%m %F{28}%K{214} %K{214}%F{black} %~ %K{black}%F{214}%F{white} → "
-export PS1="%F{33}  %F{green} %n@%m %F{214} %~%F{white} → "
+export PS1="%F{33} %n@%m %F{214} %~%F{white} → "
 
 # Delete key
 #typeset -g -A key
