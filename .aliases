@@ -1,0 +1,19 @@
+alias vim="nvim"
+alias mingw32-g++="x86_64-w64-mingw32-c++"
+alias cls="clear"
+alias hsrv="ssh minecraft@192.168.1.146"
+alias hsrv-w="ssh wojtek@192.168.1.146"
+alias shutdown="shutdown now"
+alias la="ls -A"
+alias ls="ls --color=auto"
+alias l="ls"
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias tabletcmd="ssh olo@192.168.1.182"
+alias intellij="idea.sh &"
+alias java8="/usr/lib/jvm/java-8-openjdk/bin/java"
+alias java8c="/usr/lib/jvm/java-8-openjdk/bin/javac"
+alias matrix="unimatrix"
+alias rpm="rpmextract.sh"
+alias st="st zsh"

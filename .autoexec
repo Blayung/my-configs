@@ -1,0 +1,20 @@
+export PATH=$PATH:/home/wojtek/Downloads/Apps/intelliJIdea-java/bin
+export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
+export PATH=$PATH:/home/wojtek/Downloads/Apps/boomerang-linux-alpha-0.3
+export PATH=$PATH:/home/wojtek/Downloads/Apps/idea-IE-221.5080.251/bin
+export PATH=$PATH:/home/wojtek/Downloads/Apps/emsdk
+export PATH=$PATH:/home/wojtek/.local/bin
+export PATH=$PATH:/home/wojtek/Downloads/Apps/java-language-server/dist
+
+export MAVEN_HOME=/home/wojtek/Downloads/Apps/apache-maven-3.8.5
+export PATH=$PATH:$MAVEN_HOME/bin
+
+export EDITOR=nvim
+
+#emsdk
+#source /home/wojtek/Downloads/Apps/emsdk/emsdk_env.sh
+#clear
+
+#neofetch
+echo ""
+PF_INFO="ascii title os host kernel pkgs" pfetch
