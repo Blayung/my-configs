@@ -16,5 +16,5 @@ export EDITOR=nvim
 #clear
 
 #neofetch
-echo ""
-PF_INFO="ascii title os host kernel pkgs" pfetch
+#echo ""
+#PF_INFO="ascii title os host kernel pkgs" pfetch
