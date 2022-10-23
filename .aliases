@@ -1,8 +1,6 @@
 alias vim="nvim"
 alias mingw32-g++="x86_64-w64-mingw32-c++"
 alias cls="clear"
-alias hsrv="ssh minecraft@192.168.1.146"
-alias hsrv-w="ssh wojtek@192.168.1.146"
 alias shutdown="shutdown now"
 alias la="ls -A"
 alias ls="ls --color=auto"
